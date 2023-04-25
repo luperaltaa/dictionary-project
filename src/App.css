@@ -1,0 +1,10 @@
+body {
+  background: #053c5e;
+}
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+footer {
+  color: #b3fffc;
+}
