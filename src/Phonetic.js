@@ -2,14 +2,11 @@ import React from "react";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
+  // This API doesn't contain the audio but I left the icon.
   return (
     <div className="Phonetic">
-      <a href={props.phonetic} target="_blank" rel="noreferrer">
-        {" "}
-        <i class="fa-solid fa-volume-high"></i>
-        <br />
-        {props.phonetic}
-      </a>
+      <i className="fa-solid fa-volume-high"></i>
+      <span>{props.phonetic}</span>
     </div>
   );
 }
